@@ -33,12 +33,12 @@ def convert(cabeza):
         hijoderecho = None
 
         if cabeza:
-            hijoizquierdo = Tnode(cabeza.data)
+            hijoizquierdo = NodoArbol(cabeza.data)
             q.append(hijoizquierdo)
             cabeza = cabeza.next
 
         if cabeza:
-            hijoderecho = Tnode(cabeza.data)
+            hijoderecho = NodoArbol(cabeza.data)
             q.append(hijoderecho)
             cabeza = cabeza.next
 
